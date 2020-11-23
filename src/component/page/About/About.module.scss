@@ -1,0 +1,19 @@
+.about {
+  display: grid;
+  grid-template:
+    'avatar info' auto
+    / auto 1fr;
+}
+
+.avatar {
+  grid-area: avatar;
+
+  width: 200px;
+  margin-right: 2rem;
+}
+
+.info {
+  grid-area: info;
+
+  justify-content: space-between;
+}

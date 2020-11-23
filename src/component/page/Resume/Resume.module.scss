@@ -1,0 +1,72 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+}
+
+.personalInfo {
+  display: grid;
+  grid-template:
+    'age avatar'
+    'contacts avatar'
+    /1fr auto;
+}
+
+.age {
+  grid-area: age;
+
+  opacity: 0.7;
+}
+
+.contacts {
+  grid-area: contacts;
+
+  & .link {
+    text-decoration: none;
+  }
+}
+
+.avatar {
+  grid-area: avatar;
+
+  width: 150px;
+}
+
+.subtitle {
+  opacity: 0.5;
+}
+
+.skills {
+  & .list {
+    flex-wrap: wrap;
+    margin: -0.25em;
+  }
+
+  & .item {
+    padding: 0.5rem 0.9rem;
+    margin: 0.25em;
+    background-color: var(--light_color);
+    color: var(--main_font_color);
+  }
+}
+
+.container {
+  display: grid;
+  grid-template: 'date innerContainer' / 200px 1fr;
+  margin-bottom: 2rem;
+}
+.yearOfEnding {
+  grid-area: date;
+}
+.innerContainer {
+  grid-area: innerContainer;
+  & .title {
+    margin-bottom: 1rem;
+
+    opacity: 0.5;
+  }
+}
+
+.dateJob {
+  display: flex;
+  flex-direction: column;
+}
