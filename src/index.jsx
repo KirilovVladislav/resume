@@ -11,7 +11,7 @@ import './assets/css/reset.css'
 import './assets/css/vars.css'
 
 ReactDOM.render(
-  <HashRouter>
+  <HashRouter basename={'https://KirilovVladislav.github.io/resume'}>
     <Provider store={store}>
       <App />
     </Provider>
