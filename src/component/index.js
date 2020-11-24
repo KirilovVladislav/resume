@@ -1,5 +1,3 @@
-export * from './style/Input'
-export * from './style/Button'
 export * from './style/Typography'
 export * from './style/Toggler'
 export * from './style/List'

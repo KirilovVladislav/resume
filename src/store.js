@@ -5,7 +5,6 @@ import appReducer from './slice/appSlice'
 import aboutReducer from './slice/aboutSlice'
 import projectReducer from './slice/projectSlice'
 import createAPI from './api'
-// import api from './api'
 
 
 const api = createAPI((...args) => store.dispatch(...args))

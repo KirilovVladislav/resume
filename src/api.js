@@ -22,24 +22,4 @@ const createAPI = (dispatch) => {
   return api
 }
 
-
-// export const tasksApi = {
-//   getTasks() {
-//     return createAPI(dispatch).get(`/list.json`)
-//   },
-
-//   createTask(task) {
-//     return api.post(`/list.json`, task)
-//   },
-
-//   changeTask(id, title) {
-//     return api.post(`/list/${id}.json`, { title })
-//   },
-
-//   deleteTask(id) {
-//     return api.delete(`/list/${id}.json`)
-//   },
-// }
-
-
 export default createAPI
