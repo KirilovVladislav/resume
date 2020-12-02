@@ -8,7 +8,14 @@ const initialState = {
             repo: `https://github.com/KirilovVladislav/test-funbox`,
             page: `https://kirilovvladislav.github.io/test-funbox/`,
 
-        }
+        },
+        {
+            id: `2`,
+            name: `test avito`,
+            repo: `https://github.com/KirilovVladislav/test-avito`,
+            page: `https://kirilovvladislav.github.io/test-avito/`,
+
+        },
     ],
     personalProjects: [
         {
@@ -16,7 +23,7 @@ const initialState = {
             name: `todo list`,
             repo: `https://github.com/KirilovVladislav/todo-list`,
             page: `https://kirilovvladislav.github.io/todo-list/#/`,
-        }
+        },
     ],
 }
 
