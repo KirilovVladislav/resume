@@ -19,7 +19,7 @@ import { PersonalProjects } from './component/page/PersonalProjects/PersonalProj
 import { TestProjects } from './component/page/TestProjects/TestProjects'
 import { Resume } from './component/page/Resume/Resume'
 
-const App = ({ ...props }) => {
+const App = () => {
   const history = useHistory()
   const { name, surname } = useSelector((state) => state.about)
   const [isDarkTheme, setIsDarkTheme] = useState(false)

@@ -26,7 +26,7 @@ const initialState = {
 	tel: `79776776580`,
 	github: `https://github.com/KirilovVladislav`,
 	instagram: `https://www.instagram.com/7991cool`,
-	skills: [`react`, `redux`, `git`, `css modules`, `styled-components`],
+	skills: [`react`, `redux`, `rtk`, `git`, `html`, `css`],
 	education: {
 		yearOfEnding: 2014,
 		institution: `Красноярский финансово-экономический колледж`,
@@ -35,12 +35,20 @@ const initialState = {
 	},
 	experience: [
 		{
+			id: 4,
+			organization: `Мастер Бобр`,
+			position: `Инженер`,
+			duties: `Разработка проектов, составление смет.`,
+			startEmployment: `2020.12`,
+			endEmployment: `2022.09`,
+		},
+		{
 			id: 3,
 			organization: `Максимус-Ритейл`,
 			position: `Менеджер отдела контроля качества`,
 			duties: `Контроль выполнения стандартов обслуживания принятых в компании. Составление отчетов о проделанной работе.`,
 			startEmployment: `2019.2`,
-			endEmployment: null,
+			endEmployment: `2022.04`,
 		},
 		{
 			id: 2,

@@ -4,10 +4,10 @@ import { reducer as formReducer } from 'redux-form'
 import appReducer from './slice/appSlice'
 import aboutReducer from './slice/aboutSlice'
 import projectReducer from './slice/projectSlice'
-import createAPI from './api'
+// import createAPI from './api'
 
 
-const api = createAPI((...args) => store.dispatch(...args))
+// const api = createAPI((...args) => store.dispatch(...args))
 
 const store = configureStore({
     reducer: {
@@ -16,13 +16,13 @@ const store = configureStore({
         project: projectReducer,
         form: formReducer,
     },
-    middleware: (getDefaultMiddleware) => (
-        getDefaultMiddleware({
-            thunk: {
-                extraArgument: api,
-            }
-        })
-    )
+    // middleware: (getDefaultMiddleware) => (
+    //     getDefaultMiddleware({
+    //         thunk: {
+    //             extraArgument: api,
+    //         }
+    //     })
+    // )
 })
 
 

@@ -19,6 +19,12 @@ const initialState = {
     ],
     personalProjects: [
         {
+            id: `2`,
+            name: `what to watch`,
+            repo: `https://github.com/KirilovVladislav/what-to-watch`,
+            page: `https://what-to-watch-e80a0.web.app/`,
+        },
+        {
             id: `1`,
             name: `todo list`,
             repo: `https://github.com/KirilovVladislav/todo-list`,
