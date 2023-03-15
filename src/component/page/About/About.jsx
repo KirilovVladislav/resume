@@ -55,6 +55,12 @@ export const About = ({}) => {
           </a>
         </Item>
         <Item>
+          <Typography bold={700}>{`Telegram: `}</Typography>
+          <a href={`https://t.me/vladislavkirilov`} target="_blank">
+            <Typography>{`${name}`}</Typography>
+          </a>
+        </Item>
+        <Item>
           <Typography bold={700}>{`Почта: `}</Typography>
           <a href={`mailto:${email}`}>
             <Typography>{`${email}`}</Typography>
