@@ -3,17 +3,27 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
     testProjects: [
         {
-            id: `1`,
-            name: `test funbox`,
-            repo: `https://github.com/KirilovVladislav/test-funbox`,
-            page: `https://kirilovvladislav.github.io/test-funbox/`,
+            id: `3`,
+            name: `test Sendsay`,
+            desc: `https://github.com/KirilovVladislav/Calculator-Constructor#readme`,
+            repo: `https://github.com/KirilovVladislav/Calculator-Constructor`,
+            page: `https://kirilovvladislav.github.io/Calculator-Constructor/`,
 
         },
         {
             id: `2`,
-            name: `test avito`,
+            name: `test Avito`,
+            desc: `https://github.com/KirilovVladislav/test-avito#readme`,
             repo: `https://github.com/KirilovVladislav/test-avito`,
             page: `https://kirilovvladislav.github.io/test-avito/`,
+
+        },
+        {
+            id: `1`,
+            name: `test Funbox`,
+            desc: `https://github.com/KirilovVladislav/test-funbox#readme`,
+            repo: `https://github.com/KirilovVladislav/test-funbox`,
+            page: `https://kirilovvladislav.github.io/test-funbox/`,
 
         },
     ],
